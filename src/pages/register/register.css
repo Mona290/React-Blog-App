@@ -1,0 +1,36 @@
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/1167021/pexels-photo-1167021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .input-field {
+      padding: 10px;
+      background-color: azure;
+      border: none;
+  }
+  .registercontainer > Label{
+    margin: 10px 0;
+}
+  
+  .register-button {
+      margin-top: 20px;
+      background-color: teal;
+      cursor: pointer;
+      border: none;
+      color: black;
+      border-radius: 10px;
+      padding: 10px;
+  
+  }
+  
+  /* Add additional styles as needed */
+  
+  
+  

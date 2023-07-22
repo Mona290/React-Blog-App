@@ -1,0 +1,46 @@
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/1167021/pexels-photo-1167021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .input-field {
+      padding: 10px;
+      background-color: azure;
+      border: none;
+  }
+  .contactcontainer > Label{
+    margin: 10px 0;
+}
+  
+  .contact-button {
+      margin-top: 20px;
+      background-color: teal;
+      cursor: pointer;
+      border: none;
+      color: black;
+      border-radius: 10px;
+      padding: 10px;
+  
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    width: 90%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  
+    /* Stacking form fields vertically */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  

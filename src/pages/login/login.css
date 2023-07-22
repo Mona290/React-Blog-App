@@ -1,0 +1,82 @@
+/*.login{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+    rgba(255,255,255,0.5),
+    rgba(255,255,255,0.5)
+    ),
+    url("https://images.pexels.com/photos/35888/amazing-beautiful-breathtaking-clouds.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.loginTitle{
+    font-size: 50px;
+
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.loginForm > Label{
+    margin: 10px 0;
+}
+.loginInput{
+    padding: 10px;
+    background-color: azure;
+    border: none;
+}
+.loginButton{
+    margin-top: 20px;
+    background-color: rgb(125, 106, 232);
+    cursor: pointer;
+    border: none;
+    color: rgb(13, 13, 13);
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(168, 168, 224);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}*/
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+}
+
+.input-field {
+    padding: 10px;
+    background-color: azure;
+    border: none;
+}
+
+.login-button {
+    margin-top: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+/* Add additional styles as needed */
+
+
